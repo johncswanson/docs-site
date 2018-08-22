@@ -81,17 +81,15 @@ module.exports = {
         {
           title: 'Installing Zowe',
           collapsable: true,
-          children: ['installandconfig'
-          {
-           children: [
-          'installroadmap',
-          'planinstall',
-          'gettingstarted',
-          'install-zos',
-          'cli-installcli',
-          'troubleshootinstall',
-          'uninstall']
-          }
+          children: [
+            'installandconfig',
+            'installroadmap',
+            'planinstall',
+            'gettingstarted',
+            'install-zos',
+            'cli-installcli',
+            'troubleshootinstall',
+            'uninstall'
           ]
         },
         {
